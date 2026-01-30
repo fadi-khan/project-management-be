@@ -36,15 +36,15 @@ FRONTEND_URL='http://localhost:3000'
 
 # --- Database Configuration (Local) ---
 # Use these for local development with a standalone database
-DB_HOST=localhost
-DB_PORT=5432
-DB_USERNAME=your_username
-DB_PASSWORD=your_password
-DB_DATABASE=your_database_name
+<div>DB_HOST=localhost</div> 
+<div>DB_PORT=5432</div>
+<div>DB_USERNAME=your_username</div>
+<div>DB_PASSWORD=your_password</div>
+<div>DB_DATABASE=your_database_name</div>
 
 # --- Database Configuration (Cloud) ---
-# Use this single connection string when hosting on cloud platforms
-# DATABASE_URL=postgres://user:password@host:port/database
+----Use this single connection string when hosting on cloud platforms
+<div># DATABASE_URL=postgres://user:password@host:port/database</div>
 
 # --- Security & JWT Settings ---
 JWT_SECRET=your_ultra_secure_secret_key
