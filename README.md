@@ -42,15 +42,15 @@ FRONTEND_URL='http://localhost:3000'
 <div>DB_PASSWORD=your_password</div>
 <div>DB_DATABASE=your_database_name</div>
 
-# --- Database Configuration (Cloud) ---
+ --- Database Configuration (Cloud) ---
 ----Use this single connection string when hosting on cloud platforms
-<div># DATABASE_URL=postgres://user:password@host:port/database</div>
+<div>DATABASE_URL=postgres://user:password@host:port/database</div>
 
-# --- Security & JWT Settings ---
-JWT_SECRET=your_ultra_secure_secret_key
-JWT_EXPIRES_IN=1h
-JWT_REFRESH_SECRET=your_ultra_secure_refresh_key
-JWT_REFRESH_EXPIRES_IN=7d
+ --- Security & JWT Settings ---
+<div>JWT_SECRET=your_ultra_secure_secret_key</div>
+<div>JWT_EXPIRES_IN=1h</div>
+<div>JWT_REFRESH_SECRET=your_ultra_secure_refresh_key</div>
+<div>JWT_REFRESH_EXPIRES_IN=7d</div>
 
 ## Description
 
