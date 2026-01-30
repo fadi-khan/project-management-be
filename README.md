@@ -29,7 +29,7 @@
 ⚙️ Environment Configuration
 To run this backend project, create a .env file in the root directory and configure the following variables: 
 env
-# --- Application Settings ---
+<h4># --- Application Settings ---</h4>
 NEST_DEBUG=true
 NEST_PORT=3001
 FRONTEND_URL='http://localhost:3000'
