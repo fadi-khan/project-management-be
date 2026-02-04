@@ -152,7 +152,6 @@ export class AuthService {
             secure: true,
             sameSite: 'none', 
             path: '/',
-            domain:'.onrender.com'
           
         };
 
@@ -175,7 +174,6 @@ export class AuthService {
         secure: true,
         sameSite: 'none', 
         path: '/',
-        domain:'.onrender.com'
       
     };
 
