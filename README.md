@@ -1,3 +1,7 @@
+<h4 align="center">
+  Project Management System Backend 
+</h4>
+
 <p align="center">
   <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="120" alt="Nest Logo" /></a>
 </p>
@@ -20,6 +24,33 @@
 </p>
   <!--[![Backers on Open Collective](https://opencollective.com/nest/backers/badge.svg)](https://opencollective.com/nest#backer)
   [![Sponsors on Open Collective](https://opencollective.com/nest/sponsors/badge.svg)](https://opencollective.com/nest#sponsor)-->
+
+
+⚙️ Environment Configuration
+To run this backend project, create a .env file in the root directory and configure the following variables: 
+env
+<h4># --- Application Settings ---</h4>
+NEST_DEBUG=true
+NEST_PORT=3001
+FRONTEND_URL='http://localhost:3000'
+
+# --- Database Configuration (Local) ---
+# Use these for local development with a standalone database
+<div>DB_HOST=localhost</div> 
+<div>DB_PORT=5432</div>
+<div>DB_USERNAME=your_username</div>
+<div>DB_PASSWORD=your_password</div>
+<div>DB_DATABASE=your_database_name</div>
+
+ --- Database Configuration (Cloud) ---
+----Use this single connection string when hosting on cloud platforms
+<div>DATABASE_URL=postgres://user:password@host:port/database</div>
+
+ --- Security & JWT Settings ---
+<div>JWT_SECRET=your_ultra_secure_secret_key</div>
+<div>JWT_EXPIRES_IN=1h</div>
+<div>JWT_REFRESH_SECRET=your_ultra_secure_refresh_key</div>
+<div>JWT_REFRESH_EXPIRES_IN=7d</div>
 
 ## Description
 
