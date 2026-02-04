@@ -20,8 +20,9 @@ async function bootstrap() {
     methods: 'GET,HEAD,PUT,PATCH,POST,DELETE,OPTIONS',
     allowedHeaders: 'Content-Type, Authorization',
   });
+if (process.env.NODE_ENV !== 'production') {
   setupSwagger(app);
-
+}
 const port = process.env.PORT || process.env.NEST_PORT || 3001;;
   await app.listen(port, "0.0.0.0");
   console.log(`Server running on port ${port}`);
